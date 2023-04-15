@@ -27,3 +27,9 @@ This example demonstrates the use of Qt style guidelines and naming conventions 
 - Each bool variable name should produce a reasonable approximation of a sentence when used in an if() statement: isQualified
 
 The example also demonstrates how to use a QApplication instance to initialize a Qt application and create a QLabel widget to display a simple message. The program also uses a Customer class to illustrate how to define a class that follows the Qt style guidelines and naming conventions for data members, setters, and getters. Finally, the example demonstrates how to define and use constants and enums following the Qt coding standard for naming conventions.
+
+---
+## A note on getters:
+In C++, it is more common to use simple nouns for getter methods without prepending them with 'get'. This is consistent with the Qt Style Guidelines and Naming Conventions described earlier. For example, in the code example I provided earlier, the getter method for the 'name' attribute is simply named 'name()'.
+
+While it is not necessarily wrong to prepend 'get' to a getter method name, it is not as commonly used in modern C++ programming as it used to be. It can also make the code more verbose and less readable. In general, the simpler and more concise the method name, the easier it is to read and understand the code.
